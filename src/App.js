@@ -23,7 +23,7 @@ export default function App() {
 
 
   useEffect(() => {
-  //  fetchWeather("Toronto")
+   fetchWeather("London")
   }, []);
 
   function updateWeather(data) {
